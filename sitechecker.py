@@ -42,10 +42,4 @@ web = input("Input the website you want to check: ")
 #Put this just to make it look a little neater
 print("Preparing!")
 
-checkWebsite(web)
-            
-
-        
-
-
-            
+checkWebsite(web)        
