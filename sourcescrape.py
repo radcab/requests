@@ -53,4 +53,3 @@ elif var.capitalize() == "S":
 else:
     print(f"\nInvalid choice!, Qutting in 5s.")
     time.sleep(5)
-    
