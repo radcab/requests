@@ -8,15 +8,12 @@ import threading
 import queue
 from radcabToolz import coolTitle, typeStr, readFile
 
-
 def count_lines(filename):
 
     with open(filename) as file:
         lines = file.readlines()
         total_lines = len(lines)
         return total_lines 
-
-
 
 check = 1
 radcabToolz.coolTitle('giftchecker.py / github.com/radcab')
